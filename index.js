@@ -35,15 +35,15 @@ function viewCart() {
                } else if (list.length === 2){
                   console.log("In your cart, you have " + list.join(" and ") + ".")
               } else if (list.length > 2){
-                  let lastItem = list.pop()
-                  console.log (`In your cart, you have ${list.join(', ')}, and ${lastItem}.`)
+                  //let lastItem = list.pop()
+                  console.log (`In your cart, you have ${list.join(', ')}.`)
                 }}
 
       }
 
     }}
 
-viewCart()
+
 
 function total(array) {
     var total = 0
