@@ -43,6 +43,7 @@ function viewCart() {
 
     }}
 
+viewCart()
 
 function total(array) {
     var total = 0
