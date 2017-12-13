@@ -34,9 +34,9 @@ function viewCart() {
                  console.log(`In your cart, you have ${list}.`)
                } else if (list.length === 2){
                   console.log("In your cart, you have " + list.join(" and ") + ".")
-              } else if (list.length > 2){
+              } else if (list.length >= 3){
                   let lastItem = list.pop()
-                  console.log (`In your cart, you have ${list.join(', ')} and ${list[-1]}.`)
+                  console.log (`In your cart, you have ${list.join(', ')} and ${lastItem}.`)
                 }}
 
       }
