@@ -35,9 +35,9 @@ function viewCart() {
                } else if (list.length === 2){
                  let twoItem = "In your cart, you have " + list.join(" and ") + "."
                 console.log(twoItem)
-              } else if (list.length => 3){
+              } else if (list.length === 3){
                   let lastItem = list.pop()
-                  console.log (list.join(", ") + lastItem )
+                  console.log (list.join(", ") + "and " + lastItem )
                 }}
 
       }
